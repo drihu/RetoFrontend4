@@ -17,11 +17,52 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        Reto Frontend Semana 4
+        <div id="modal1" class="modal modal-fixed-footer">
+            <form class="col s12">
+                <div class="modal-content">
+                    <h4>Formulario de Suscripci&oacute;n</h4>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Nombres</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Apellidos</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Correo Electr&oacute;nico</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="phone" type="text" class="validate">
+                            <label for="phone">Tel&eacute;fono</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancelar</a>
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Enviar</a>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <header>
+                <h1>Reto 4 de Frontend</h1>
+            </header>
+
+            <section>
+                <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Reg&iacute;strate</a>
+            </section>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="vendor/materialize.min.css"></script>
+        <script src="js/vendor/materialize.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>

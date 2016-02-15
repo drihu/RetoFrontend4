@@ -53,104 +53,6 @@ textarea {
 
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-html {
-    color: #5D5D5D;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-body {
-    background-color: #F5F7F8;
-}
-
-h1 {
-    margin: 0;
-}
-
-a {
-    color: #8AF;
-    text-decoration: none;
-}
-
-a:hover {
-    font-weight: bold;
-}
-
-p {
-    margin: 0 0 10px;
-}
-
-#header {
-    background-color: #FFF;
-    box-shadow: 0 0 3px #CCC;
-    margin-bottom: 15px;
-    padding: 10px 15px;
-}
-
-nav {
-    float: left;
-    width: 15%;
-}
-
-nav p {
-    padding: 0 15px;
-}
-
-main {
-    float: left;
-    width: 85%;
-}
-
-article {
-    background-color: #FFF;
-    box-shadow: 0 0 3px #CCC;
-    margin: 0 15px 15px;
-    padding: 15px;
-}
-
-article h2 {
-    margin: 0 0 10px;
-}
-
-div.content p {
-    text-align: justify;
-}
-
-span.tag a {
-    color: #8C8;
-}
-
-article article {
-    box-shadow: none;
-    margin: 0 0 15px 30px;
-    padding: 0;
-}
-
-article time {
-    color: #888;
-}
-
-article textarea {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border: 1px solid #CCC;
-    margin-bottom: 15px;
-    padding: 5px;
-}
-
-#footer {
-    clear: both;
-    background-color: #456;
-    padding: 15px;
-    color: #FFF;
-    text-align: center;
-}
-
-
-/* ==========================================================================
    Media Queries
    ========================================================================== */
 
@@ -276,3 +178,9 @@ article textarea {
         page-break-after: avoid;
     }
 }
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
